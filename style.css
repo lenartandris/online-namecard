@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Karla&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+    background-image: url(/assets/pier_dock_sea_dusk_shore_118549_1920x1080.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    letter-spacing: 4px;
+    font-family: "Crimson Text";
+}
+/* hero section */
+#portfolio {
+    margin-bottom: 30px;
+}
+.container {
+    margin: 10px;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+}
+
+.port-image {
+    height: 450px;
+    text-align: center;
+    border: 10px solid crimson;
+}
+/*End  hero section */
+
+/* content section */
+.content {
+    text-align: center;
+    margin: 20px auto;
+    z-index: 1;
+}
+
+.name {
+    margin-top: -20px;
+}
+
+.paragraph {
+    margin: 35px;
+    margin-right: 20%;
+    margin-left: 20%;
+    max-width: 100%;
+}
+
+/* End content section */
+
+/* contact section */
+.container2 {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+.contact {
+ max-width: 500vh;
+}
+.contact-items {
+    display: flex;
+    justify-content: center;
+}
+.section-title {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-items {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-item {
+    padding: 15px;
+    filter: grayscale(1);
+	transition: .3s ease filter;
+}
+
+.contact-item:hover{
+	filter: grayscale(0);
+}
+/* End contact section */
